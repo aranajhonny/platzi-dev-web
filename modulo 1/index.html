@@ -2,29 +2,33 @@
 <html lang="es">
 <head>
 	<meta charset="utf-8" />
-	<meta description="Proyecto de la primera generación del 2014 del curso de diseño web online" />
-	<title>Puls2014: Comunidad online de gente atractiva</title>
+	<title>Mi primera app web :D</title>
+	<link rel="stylesheet" href="normalize.css" />
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="estilos.css" />
 </head>
 <body>
 	<header>
 		<figure id="logo">
 			<img src="logo.png" />
 		</figure>
-		<h1>Puls2014: Comunidad de personas atractivas y millonarias</h1>
+		<h1 id="titulo_header">Puls3: Comunidad de gente cool, atractiva y millonaria</h1>
 		<figure id="avatar">
 			<img src="avatar.jpg" />
+			<figcaption>
+				*
+			</figcaption>
 		</figure>
 	</header>
 	<nav>
 		<ul>
+			<li id="flechita_nav"><a href="#">*</a></li>
 			<li><a href="#">Python</a></li>
 			<li><a href="#">HTML5</a></li>
 			<li><a href="#">Javascript</a></li>
 			<li><a href="#">CSS3</a></li>
 			<li><a href="#">Django</a></li>
-			<li id="publicar_nav">
-				<a href="#">Publicar</a>
-			</li>
+			<li id="publicar_nav"><a href="#">Publicar</a></li>
 		</ul>
 	</nav>
 	<section id="contenido">
@@ -33,31 +37,27 @@
 				<img src="imagen.jpg" />
 			</figure>
 			<h2 class="titulo_item">
-				<a href="#">Título del artículo</a>
+				<a href="#">Una mirada a Leap Motion: El control Minority Report</a>
 			</h2>
 			<div class="autor_item">
-				Por <a href="#">Maika Gonzalez</a>
+				Por <a href="#">Freddy Vega</a>
 			</div>
 			<div class="datos_item">
-				<a href="#" class="tag_item">Pony</a>
-				<span class="fecha_item">
-					Hace <strong>5</strong> min
-				</span>
+				<a class="tag_item" href="#">hardware</a>
+				<span class="fecha_item">Hace 5 min</span>
+				<a class="comentarios_item" href="#">455</a>
+				<a class="guardar_item" href="#">*</a>
 			</div>
 			<div class="votacion">
-				<a href="#" class="up"></a>
-				696
-				<a href="#" class="down"></a>
-				<a href="#" class="comentarios_item">3</a>
-				<a href="#" class="guardar_item"></a>
+				<a class="up" href="#">+</a> 
+				3141
+				<a class="down" href="#">-</a> 
 			</div>
 		</article>
 	</section>
 	<footer>
-		<p>
-			<strong>Powered by Pony</strong>
-		</p>
-		<p>mejorando.la 2013</p>
+		<p>Powered by Platzi!</p>
+		<p>Mejorando.la 2013 ®</p>
 	</footer>
 </body>
 </html>
