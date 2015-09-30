@@ -247,6 +247,44 @@ aside{
     }
 }
 
+/* Formulario */
+.formulario{
+    padding: 1em;
+    text-align: right;
+}
+
+.formulario input{
+    border: 1pz solid #888;
+    border-radius: 5px;
+    padding: 0.2em 0.6em;
+}
+
+.formulario input[type="submit"]{
+    background: #22BCE0;
+    border-color: #22BCE0;
+	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
+	font-style: italic;
+	text-decoration: none;
+	text-shadow:rgba(0,0,0,0.5) 2px 2px 5px;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
