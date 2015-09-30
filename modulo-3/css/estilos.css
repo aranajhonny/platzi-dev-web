@@ -195,6 +195,7 @@ aside{
 } 
 #contenido .item .datos_item .fecha_item{
 	color: #AAA;
+    padding-right: 0.5em;
 	
 }
 #contenido .item .datos_item .tag_item{
@@ -213,8 +214,8 @@ aside{
 	position: absolute;
 	top: 100%;
 	padding: 0.2em 0.5em ;
-	width: 89%;
-	left: 10%;
+	width: 90%;
+	left: 3%;
 }
 #contenido .item .votacion a{
 	text-decoration: none;
@@ -254,7 +255,7 @@ aside{
 }
 
 .formulario input{
-    border: 1pz solid #888;
+    border: 1px solid #888;
     border-radius: 5px;
     padding: 0.2em 0.6em;
 }
