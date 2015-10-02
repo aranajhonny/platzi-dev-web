@@ -1,0 +1,9 @@
+*.mp3 filter=lfs -text
+*.zip filter=lfs -text
+*.jpg filter=lfs -text
+*.png filter=lfs -text
+*.mp4 filter=lfs -text
+*.wmv filter=lfs -text
+*.m4v filter=lfs -text
+*.ogg filter=lfs -text
+*.webm filter=lfs -text
