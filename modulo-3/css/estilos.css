@@ -47,6 +47,7 @@
 a{
 	color: #22BCE0;
 }
+
 body{
 	background:#EEE;
 	font-family:"Open Sans";
@@ -77,6 +78,7 @@ header{
 	overflow: hidden;
 	padding: 0.5em;
 	position: relative;
+    
 }
 header figure{
 	float: left;
@@ -144,7 +146,7 @@ nav ul #publicar_nav a:hover:before{
     font-size: 20px;
 }
 nav ul li a:hover{
-    background: #343b45;
+    background: #343B54;
 }
 nav ul li{
 	display: inline-block;
@@ -159,6 +161,9 @@ nav ul li a{
 }
 aside{
     display: none;
+}
+#beta{
+    background:#aabbcc ;
 }
 #contenido{
 	margin: 1em;
@@ -240,8 +245,9 @@ aside{
     aside{
         display: block;
         float: right;
-        margin: 1em;
-        width: 20%;
+        margin: 0.5em;
+        width: 30%;
+        padding: 1px 1px;
     }
     aside video{
         width: 100%
@@ -261,8 +267,8 @@ aside{
 }
 
 .formulario input[type="submit"]{
-    background: #22BCE0;
-    border-color: #22BCE0;
+    background: dimgray;
+    border-color: dimgray;
 	box-shadow: rgba(0,0,0,0.5) 5px 5px 20px;
 	font-style: italic;
 	text-decoration: none;
