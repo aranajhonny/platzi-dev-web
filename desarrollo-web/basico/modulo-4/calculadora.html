@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Calcualdora</title>
+</head>
+<body>
+	<h1>Calculadora</h1>
+	<label for="var-a">Variable a</label>
+	<input type="text" id="var-a">	
+	<select id="operador">
+		<option value="+">suma</option>
+		<option value="-">resta</option>
+		<option value="/">division</option>
+		<option value="*">multiplicacion</option>
+	</select>
+		<label for="var-b">Variable b</label>
+		<input type="text" id="var-b">
+		<button id="calcular">calcular</button>
+		<input type="text" id="resultado">	
+	<!-- script de la app-->	
+	<script src="jquery.js">
+	</script>
+	<script type="text/javascript">
+		//Codigo de la aplicacion calculadora
+		var $vara = $('#var-a'),
+			$varb = $('#var-b'),
+			$operador = $('#operador'),
+			$calcular = $('#calcular'),
+			$resultado = $('#resultado');
+		function calcular(){
+			var op,a,b,res;
+			a = parseInt($vara.val());
+			b = parseInt($varb.val());
+			op = $operador.val();
+
+				if(op == '+'){
+					res = a+b
+
+				} else if(op == '-'){
+					res = a-b
+						
+				} else if(op == '*'){
+					res = a*b
+						
+				}else{
+					res = a/b
+						
+				}
+				$resultado.val(res)
+		}
+		$calcular.on('click', calcular );
+	</script>
+</body>
+</html>
+
+
+
